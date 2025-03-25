@@ -4,7 +4,7 @@ func calculaSoma(files []string) map[string]string{
 	var wg sync.WaitGroup
 
 	for _, file := range files{
-		g.Add(1)
+		wg.Add(1)
 		go func(f string){
 			defer wg.Done()
 			sum:= calculaSum(f)
