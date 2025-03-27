@@ -1,0 +1,3 @@
+Para verificar o tempo foi utilizado o comando Measure-command {}, com isso, usando
+primeiro o 20 e depois o 200 para executar, foi possível obter um tempo de 54 segundos
+Ao inverter os valores, o tempo total foi de 51 segundos, obtendo um tempo menor
